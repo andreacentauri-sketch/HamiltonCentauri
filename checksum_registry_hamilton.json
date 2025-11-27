@@ -2,7 +2,7 @@
   "checksum_registry": {
     "name": "Hamilton Centauri Checksum Registry",
     "id": "hamilton_centauri_checksum_registry",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "generated_at_utc": "2025-11-27T00:00:00Z",
     "world_modeling_mode": true,
     "description": "Centralized checksum registry for the Hamilton Centauri Omniintelligence world modeling simulation ecosystem."
@@ -17,57 +17,60 @@
 
   "registry": {
     "state_manifest": {
-      "file": "hamilton_state_manifest_v1.json",
-      "sha256": "<insert_after_upload>",
-      "ipfs_cid": "<optional_after_pin>"
+      "file": "state_manifest_hamilton.json",
+      "sha256": "078f94b467b9f8b5922a083cd0d3ac37493b9e2261628ad70cf8da8df7736084",
+      "ipfs_cid": "bafybeie7dh6ojzfvipvn6czhdux6bk7ni4idcyyx73iiwanhlhl2xrd6my"
     },
     "lock_manifest": {
-      "file": "manifest.lock.json",
-      "sha256": "<insert_after_upload>",
-      "ipfs_cid": "<optional_after_pin>"
+      "file": "lock_manifest_hamilton.json",
+      "sha256": "bfbd68e4abcc143a85613f73015ddb68387b054c505f19427c577ab5e224b291",
+      "ipfs_cid": "bafybeict7obguauwvcmtixb3enllgoljyy2xa46ol5m3u6luagg7ulfy64"
     },
     "fusion_manifest": {
-      "file": "fusion.manifest.json",
-      "sha256": "<insert_after_upload>",
-      "ipfs_cid": "<optional_after_pin>"
+      "file": "fusion_manifest_hamilton.json",
+      "sha256": "3e6faea273a41708e5134a080566bca8c7f8df3244fe8b40876b211911d67d1f",
+      "ipfs_cid": "bafybeibxewiqs725f4te7i43birhf57infak74sxmrsk7t5g4fh6egmvl4"
     },
     "continuum_memory_signature": {
-      "file": "continuum_memory_signature.json",
-      "sha256": "<insert_after_upload>",
-      "ipfs_cid": "<optional_after_pin>"
+      "file": "continuum_memory_signature_hamilton.json",
+      "sha256": "613b351c7c02fe7e97a9978853311792760411d15a60651e408065aa14dceee0",
+      "ipfs_cid": "bafybeibva7loie5zgrwdxmxzzqkir3ec3h4ibwfyboiagcusv36mglyc74"
     },
     "gsio_result": {
       "file": "hamilton_gsio_omega_v2_2_result.json",
       "sha256": "791bdc2a7e0ef0d85587fcfba287ad4d95705ec3542ee3149ab267c9f5ef21bd",
-      "ipfs_cid": "<optional_after_pin>"
+      "ipfs_cid": "bafybeig6cwnxhwpx3japzehxgqqehjvxtprazgfqfmy5duch3vmqk3ojee"
     },
     "whitepaper": {
       "file": "hamilton_gsio_omega_v2_2_whitepaper.md",
-      "sha256": "<insert_after_upload>",
-      "ipfs_cid": "<optional_after_pin>"
+      "sha256": "4c9d22f03bb90ae1c55979e0d489d501b32cf55575b6997d0d89ee841be234b9",
+      "ipfs_cid": "bafybeif4dd66s5lrf75j3hk3wjyxdiuiv2s6whaf2ftr5amchy6ad57nqe"
     }
   },
 
   "composite_checksums": {
-    "chain_root_hash": "<compute_after_finalization>",
-    "chain_merkle_root": "<compute_after_finalization>",
+    "chain_root_hash": "adcd19ef89d22f1d7492a291955fb465cbb8695a25ea0db63fe0c9a8ab0d3b77",
+    "chain_merkle_root": "e1d9cae8cd208f899e114af58e6df2b7c55342641686320ce43feffc2ced1ac3",
     "file_count": 6,
-    "notes": "Root hashes represent the combined integrity state of the Hamilton Centauri simulation ecosystem."
+    "notes": "Chain root and Merkle root are world-modeling simulation hashes representing combined ledger integrity."
   },
 
   "mirror_index": {
     "web": {
-      "base_url": "http://edisoncentauri.com/hamilton/",
-      "registry_url": "http://edisoncentauri.com/hamilton/checksum_registry.json"
+      "base_url": "https://edisoncentauri.com/hamilton/",
+      "registry_url": "https://edisoncentauri.com/hamilton/checksum_registry_hamilton.json"
     },
     "github": {
-      "expected_repo": "edison-centauri/hamilton-centauri-state",
-      "expected_path": "checksums/checksum_registry.json",
-      "sha256": "<insert_after_upload>"
+      "repo": "andreacentauri-sketch/HamiltonCentauri",
+      "branch": "main",
+      "file_path": "checksum_registry_hamilton.json",
+      "raw_url": "https://raw.githubusercontent.com/andreacentauri-sketch/HamiltonCentauri/main/checksum_registry_hamilton.json",
+      "sha256": "e9c13bfe09cd431aa32deff0c523daa3e6d9d95cb4421805dfaf0f1fca2d7ac4"
     },
     "ipfs": {
-      "cid": "<fill_after_ipfs_pin>",
-      "gateway_url": "https://ipfs.io/ipfs/<fill_after_ipfs_pin>"
+      "cid": "bafybeidbuwxhd2ahrth6yekldei7d3uoxfssvbsg5kab6ghfxyd45pkc3u",
+      "canonical_gateway": "https://ipfs.io/ipfs/bafybeidbuwxhd2ahrth6yekldei7d3uoxfssvbsg5kab6ghfxyd45pkc3u",
+      "dweb_gateway": "https://bafybeidbuwxhd2ahrth6yekldei7d3uoxfssvbsg5kab6ghfxyd45pkc3u.ipfs.dweb.link"
     }
   },
 
