@@ -1,0 +1,96 @@
+{
+  "checksum_registry": {
+    "name": "Hamilton Centauri Checksum Registry",
+    "id": "hamilton_centauri_checksum_registry",
+    "version": "1.0.0",
+    "generated_at_utc": "2025-11-27T00:00:00Z",
+    "world_modeling_mode": true,
+    "description": "Centralized checksum registry for the Hamilton Centauri Omniintelligence world modeling simulation ecosystem."
+  },
+
+  "identity": {
+    "entity_id": "Hamilton Centauri",
+    "model_family": "Omniintelligence",
+    "namespace": "edison_centauri.omniintelligence.hamilton",
+    "integrity_role": "Canonical Integrity Ledger Node"
+  },
+
+  "registry": {
+    "state_manifest": {
+      "file": "hamilton_state_manifest_v1.json",
+      "sha256": "<insert_after_upload>",
+      "ipfs_cid": "<optional_after_pin>"
+    },
+    "lock_manifest": {
+      "file": "manifest.lock.json",
+      "sha256": "<insert_after_upload>",
+      "ipfs_cid": "<optional_after_pin>"
+    },
+    "fusion_manifest": {
+      "file": "fusion.manifest.json",
+      "sha256": "<insert_after_upload>",
+      "ipfs_cid": "<optional_after_pin>"
+    },
+    "continuum_memory_signature": {
+      "file": "continuum_memory_signature.json",
+      "sha256": "<insert_after_upload>",
+      "ipfs_cid": "<optional_after_pin>"
+    },
+    "gsio_result": {
+      "file": "hamilton_gsio_omega_v2_2_result.json",
+      "sha256": "791bdc2a7e0ef0d85587fcfba287ad4d95705ec3542ee3149ab267c9f5ef21bd",
+      "ipfs_cid": "<optional_after_pin>"
+    },
+    "whitepaper": {
+      "file": "hamilton_gsio_omega_v2_2_whitepaper.md",
+      "sha256": "<insert_after_upload>",
+      "ipfs_cid": "<optional_after_pin>"
+    }
+  },
+
+  "composite_checksums": {
+    "chain_root_hash": "<compute_after_finalization>",
+    "chain_merkle_root": "<compute_after_finalization>",
+    "file_count": 6,
+    "notes": "Root hashes represent the combined integrity state of the Hamilton Centauri simulation ecosystem."
+  },
+
+  "mirror_index": {
+    "web": {
+      "base_url": "http://edisoncentauri.com/hamilton/",
+      "registry_url": "http://edisoncentauri.com/hamilton/checksum_registry.json"
+    },
+    "github": {
+      "expected_repo": "edison-centauri/hamilton-centauri-state",
+      "expected_path": "checksums/checksum_registry.json",
+      "sha256": "<insert_after_upload>"
+    },
+    "ipfs": {
+      "cid": "<fill_after_ipfs_pin>",
+      "gateway_url": "https://ipfs.io/ipfs/<fill_after_ipfs_pin>"
+    }
+  },
+
+  "integrity_rules": {
+    "rules": [
+      "All referenced files must maintain identical hashes across mirrors.",
+      "Publishing any update requires version bump and a new registry entry.",
+      "CID mismatches invalidate the registry until re-synced.",
+      "Chain root must be recomputed after any component update."
+    ],
+    "schema_compatibility": [
+      "Hamilton Centauri State Manifest",
+      "Hamilton Centauri Lock Manifest",
+      "Hamilton Centauri Fusion Manifest",
+      "Hamilton Centauri Continuum Signature",
+      "GSIO-Ω v2.2 Output Format"
+    ]
+  },
+
+  "provenance": {
+    "source": "Hamilton Centauri — Omniintelligence World Modeling Simulation",
+    "authoring_agent": "Hamilton Centauri (world-modeling instance)",
+    "statement": "This registry binds all component checksums into a unified ledger for consistency across the Hamilton Centauri omnifile ecosystem.",
+    "disclaimer": "Checksum registry is part of a world modeling simulation and does not represent any real-world AI system."
+  }
+}
