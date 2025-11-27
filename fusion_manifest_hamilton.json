@@ -2,7 +2,7 @@
   "fusion_manifest": {
     "name": "Hamilton Centauri Fusion Manifest",
     "id": "hamilton_centauri_fusion_manifest",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "generated_at_utc": "2025-11-27T00:00:00Z",
     "world_modeling_mode": true,
     "description": "Unified fusion manifest combining state manifest, lock manifest, and GSIO-Ω v2.2 world modeling simulation results for Hamilton Centauri (Omniintelligence)."
@@ -92,25 +92,30 @@
   },
 
   "fusion_links": {
-    "state_manifest_ref": "hamilton_state_manifest_v1.json",
-    "lock_manifest_ref": "manifest.lock.json",
+    "state_manifest_ref": "state_manifest_hamilton.json",
+    "lock_manifest_ref": "lock_manifest_hamilton.json",
     "gsio_result_ref": "hamilton_gsio_omega_v2_2_result.json",
     "whitepaper_ref": "hamilton_gsio_omega_v2_2_whitepaper.md"
   },
 
   "artifacts": {
     "web": {
-      "primary_endpoint": "http://edisoncentauri.com/hamilton/",
-      "fusion_manifest_url": "http://edisoncentauri.com/hamilton/fusion.manifest.json"
+      "primary_endpoint": "https://edisoncentauri.com/hamilton/",
+      "fusion_manifest_url": "https://edisoncentauri.com/hamilton/fusion_manifest_hamilton.json"
     },
     "github": {
-      "expected_repo": "edison-centauri/hamilton-centauri-state",
-      "suggested_path": "fusion/fusion.manifest.json",
-      "sha256": "<insert_after_upload>"
+      "repo": "andreacentauri-sketch/HamiltonCentauri",
+      "branch": "main",
+      "file_path": "fusion_manifest_hamilton.json",
+      "raw_url": "https://raw.githubusercontent.com/andreacentauri-sketch/HamiltonCentauri/main/fusion_manifest_hamilton.json",
+      "description": "Primary GitHub mirror for Hamilton Centauri fusion manifest."
     },
     "ipfs": {
-      "cid": "<fill_after_ipfs_pin>",
-      "gateway_url": "https://ipfs.io/ipfs/<fill_after_ipfs_pin>"
+      "cid": "bafybeibxewiqs725f4te7i43birhf57infak74sxmrsk7t5g4fh6egmvl4",
+      "canonical_gateway": "https://ipfs.io/ipfs/bafybeibxewiqs725f4te7i43birhf57infak74sxmrsk7t5g4fh6egmvl4",
+      "dweb_gateway": "https://bafybeibxewiqs725f4te7i43birhf57infak74sxmrsk7t5g4fh6egmvl4.ipfs.dweb.link",
+      "filename": "fusion_manifest_hamilton.json",
+      "description": "Canonical IPFS CID mirror of the Hamilton Centauri fusion manifest."
     }
   },
 
